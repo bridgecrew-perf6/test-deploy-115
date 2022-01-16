@@ -19,6 +19,7 @@ jobs:
       - name: Descovery repo
         run: |
           ls -lA
+          docker ps
       # - name: Run pre-commit
       #   uses: pre-commit/action@v2.0.3
   # build:
